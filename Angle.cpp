@@ -4,7 +4,7 @@
 //DEGREES is used by default.
 //This value can be changed back and forth during your program without modifying the underling angle data.
 //It can also be ignored, and you can always specify units in Angle methods.
-extern AngleUnits Default_Angle_Units = AngleUnits::DEGREES;
+//extern AngleUnits Default_Angle_Units = AngleUnits::DEGREES;  -- not going to use -- bad practice.  Use your units.
 
 
 Angle::Angle() {
