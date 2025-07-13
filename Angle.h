@@ -158,7 +158,8 @@ protected:
 	//	-	This will cost 1 extra multiplication step for conversion when performing trig functions, but that seems 
 	//		worth the accuracy
 	//	-	REVOLUTIONS was added later, so it wasn't originally considered
-	double valueDeg; 
+	double valueDeg;
+	const AngleUnits BASE_UNITS = DEGREES;
 };
 
 //convert the value from the first units to the second units
