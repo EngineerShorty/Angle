@@ -128,9 +128,9 @@ double Angle::operator/(Angle other) {
 	return divideBy(other);
 }
 
-double Angle::value() {
-	return value(Default_Angle_Units);
-}
+//double Angle::value() {
+//	return value(Default_Angle_Units);
+//}
 
 double Angle::value(AngleUnits units) {
 	return convertAngleUnits(valueDeg, BASE_UNITS, units);
