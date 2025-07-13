@@ -43,7 +43,7 @@ enum AngleUnits {
 //	-	This will cost 1 extra multiplication step for conversion when performing trig functions, but that seems 
 //		worth the accuracy
 //	-	REVOLUTIONS was added later, so it wasn't originally considered
-const AngleUnits BASE_UNITS = AngleUnits::DEGREES;
+//const AngleUnits BASE_UNITS = AngleUnits::DEGREES;  //not going to use -- bad practice -- be declarative about your angle units
 
 //CONSTANTS (mainly for conversions)
 const double PI = 3.141592653589793;
