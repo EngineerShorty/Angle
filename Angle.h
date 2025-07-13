@@ -86,10 +86,10 @@ public:
 	Angle perpendicular_negative();
 
 	//returns the value of the angle in the Default_Angle_Units
-	double value();
+	//double value();
 	//returns the value of the angle in the given units
 	double value(AngleUnits units);
-	//return the value in a string showing degrees minutes seconds (e.g. 43° 34' 21.45")
+	//return the value in a string showing degrees minutes seconds (e.g. 43Â° 34' 21.45")
 	string value_degsMinsSecs();
 	//the number of full revolutions
 	int revolutions();
